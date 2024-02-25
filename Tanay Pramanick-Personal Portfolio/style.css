@@ -1,0 +1,950 @@
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL&family=Fira+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL&family=Fira+Sans:wght@300&family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+body{
+    background-color: rgb(103, 103, 103);
+}
+.main{
+    /* background-color: red; */
+    width: 85vw;
+    height: 80%;
+    margin: 80px 220px 40px 120px;
+    display: flex;
+    position: fixed;
+}
+
+.sideber{
+    width: 30%;
+    color: white;
+    background-color: rgb(41, 41, 41);
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.nav img{
+    width: 150px;
+    height: 150px;
+    margin: 10px 80px 5px 70px;
+    border: 2px solid yellow;
+    border-radius: 50%;
+}
+
+.imginfo{
+    margin: 0 0px 10px 75px;
+}
+
+.container{
+    width: 100%;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+.info{
+    margin: 100px 120px;
+}
+
+.nav{
+    margin: 20px 0 0 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nav li{
+    padding: 7px 19px;
+    /* margin: 0 0 13px 0 ; */
+    text-align: center;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: white;
+    /* margin-left: 60px; */
+}
+
+.box{
+    width: 140px;
+    height: 20px;
+    background-color: rgb(81, 81, 81);
+    border-radius: 20px;
+    padding: 10px 100px 10px 15px; 
+    cursor: pointer;
+}
+
+.box:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.item{
+    margin-left: 60px;
+}
+
+.hello{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.3em;
+    margin: 3px;
+}
+
+.myintro{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.5em;
+    margin: 7px;
+}
+
+.name{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 2em;
+    margin: 3px 0;
+}
+
+.about{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 3px 0;
+    font-size: 1em;
+}
+
+.tanay{
+    color: yellow;
+}
+
+.background1{
+    background-color: rgb(171, 171, 171);
+    width: 570px;
+    height: 570px;
+    position: absolute;
+    bottom: -170px;
+    left: -170px;
+    z-index: -10;
+    border-radius: 50%;
+}
+.background2{
+    background-color: yellow;
+    width: 570px;
+    height: 570px;
+    position: absolute;
+    top: -190px;
+    right: -190px;
+    z-index: -10;
+    border-radius: 50%;
+}
+
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: rgb(81, 81, 81);
+    font-weight: bold;
+    font-size: 15px;
+    margin: 4px 3px;
+    cursor: pointer;
+    border: none;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.btn:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.name1{
+    font-size: 1.3em;
+}
+
+.box2{
+    display: flex;
+    margin: 20px;
+}
+
+.buttons1{
+    position: relative;
+    left: 170px;
+    top: 80px;
+}
+
+.me{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 0.9em;
+}
+
+.me li{
+    margin: 20px 20px 20px 0;
+}
+
+.img1{
+    width: 17px;
+    height: 17px;
+}
+.coninfo{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+hr{
+    margin: 20px;
+}
+
+.conme{
+    text-align: center;
+    margin: 20px;
+}
+
+/* .con1{
+     display: flex;
+     flex-direction: column;
+} */
+
+.con1 h2{
+    text-align: center;
+}
+
+p {
+    margin: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form input{
+    margin: 10px 0 10px 0;
+    padding: 13px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(94, 94, 94);
+}
+
+::placeholder{
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+form textarea{
+    margin: 10px 0 10px 0;
+    padding: 13px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(94, 94, 94);
+}
+
+.tembox{
+    display: flex;
+    flex-wrap:wrap;
+    margin: 70px 0 0 30px;
+}
+
+.template{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.1em;
+    background-image: url(/img/template.png);
+    background-attachment:fixed;
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+    padding: 60px;
+    border: 1px solid yellow;
+    border-radius: 6px;
+}
+
+
+.projects{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.probox img{
+    border: 1px solid yellow;
+    margin: 40px;
+    width: 250px;
+    height: 140px;
+}
+
+@media (min-width: 1546px) {
+    .background2{
+        right: -260px;
+    }
+
+    .background1{
+        left: -195px;
+    }
+
+}
+
+@media (max-width: 1546px) {
+    .background1{
+        left: -195px;
+    }
+
+    .main{
+        margin: 60px 220px 40px 120px;
+    }
+}
+
+@media (max-width: 1525px) {
+    .background1,
+    .background2{
+        width: 500px;
+        height: 500px;
+    }
+}
+
+@media (max-width: 1476px) {
+    .name1{
+        font-size: 1em;
+    }
+
+    .dev{
+        font-size: 0.8em;
+    }
+
+    .about{
+        font-size: 0.9em;
+    }
+
+    .btn{
+        font-size: 0.8em;
+    }
+}
+
+
+@media (max-width: 1158px) {
+    .info{
+        margin: 20px;
+    }
+
+    .nav li{
+        padding: 7px 18px;
+    }
+
+    .nav img{
+        width: 100px;
+        height: 100px;
+        margin: 10px 80px 5px 90px;
+    }
+
+    .container{
+        width: 70vw;
+    }
+
+}
+
+@media (max-width: 1465px) {
+    .main{
+        width: 95vw;
+        height: 90%;
+        margin: 30px 110px 20px 30px;
+    }
+    .nav img{
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (min-width: 1464px) {
+    .nav img{
+        width: 120px;
+        height: 120px;
+    }
+
+    .name1{
+        font-size: 1em;
+    }
+
+    .dev{
+        font-size: 0.9em;
+    }
+
+    .nav{
+        margin: 5px 0 0 0;
+    }
+
+    .imginfo{
+        margin: 0 0px 3px 75px;
+    }
+
+    .info{
+        margin: 20px;
+    }
+
+    .tembox{
+        margin: 50px 0 0 70px;
+    }
+
+    .template{
+    width: 130px;
+    height: 45px;
+    margin: 20px;
+    padding: 50px;
+    }
+}
+
+@media (max-width: 1020px) {
+    .box{
+        padding: 10px 65px 10px 0px;
+    }
+
+    .main{
+        height: 95%;
+        margin: 15px 110px 40px 20px;
+    }
+
+    .imginfo{
+        margin: 0 0px 10px 85px;
+    }
+
+    .buttons1{
+        left: 100px;
+    }
+}
+
+@media (max-width: 717px) {
+    .box{
+        padding: 10px 20px 5px 0px;
+    }
+
+    .item{
+        margin-left: 20px;
+        font-size: 0.8em;
+    }
+
+    .nav img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .name1{
+        font-size: 0.8em;
+    }
+
+    .dev{
+        font-size: 0.7em;
+    }
+
+    .about{
+        font-size: 0.8em;
+        font-weight: 300;
+    }
+
+    .hello{
+        font-size: 1.1em;
+    }
+
+    .name{
+        font-size: 1.5em;
+    }
+
+    .info{
+        margin: 10px;
+    }
+
+    .btn{
+        font-size: 0.7em;
+    }
+
+    .buttons1{
+        left: 40px;
+    }
+}
+
+@media (max-width: 611px) {
+    .nav img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .about{
+        font-weight: 200;
+    }
+
+    .item{
+        margin-left: -5px;
+        font-size: 0.7em;
+    }
+
+    .box{
+        padding: 6px 0px 2px 0px;
+        width: 120px;
+    }
+
+    .imginfo{
+        margin: 0 0px 10px 75px;
+    }
+
+    .nav li{
+        padding: 7px 10px;
+    }
+
+    .main{
+        margin: 15px 110px 40px 14px;
+    }
+
+    .name1{
+        font-size: 0.65em;
+    }
+
+    .dev{
+        font-size: 0.55em;
+    }
+
+    .buttons1{
+        left: 10px;
+    }
+}
+
+@media (max-width: 467px) {
+    .box{
+        width: 90px;
+    }
+
+    .main{
+        margin: 15px 110px 40px 12px;
+    }
+
+    .btn{
+        font-size: 0.6em;
+        font-weight: 100;
+    }
+
+    .about{
+        font-weight: 100;
+    }
+}
+
+@media (max-width: 400px) {
+    .main{
+        margin: 15px 110px 40px 10px;
+    }
+}
+
+@media (max-width: 1325px) {
+    .template{
+        width: 130px;
+        height: 45px;
+        margin: 20px;
+        padding: 50px;
+        }
+}
+
+@media (max-width: 1199px) {
+    .template{
+        width: 110px;
+        height: 35px;
+        margin: 25px;
+        padding: 40px;
+        font-size: 0.9em;
+        }
+
+        .tembox{
+            margin: 80px 0 0 60px;
+        }
+}
+
+@media (max-width: 1158px) {
+    .template{
+        width: 110px;
+        height: 35px;
+        margin: 17px;
+        padding: 40px;
+        font-size: 0.9em;
+        }
+
+        .tembox{
+            margin: 110px 0 0 20px;
+        }
+}
+
+@media (max-width: 1045px) {
+    .template{
+        width: 90px;
+        height: 30px;
+        margin: 15px;
+        padding: 40px;
+        font-size: 0.8em;
+        }
+
+        .tembox{
+            margin: 110px 0 0 20px;
+        }
+}
+
+@media (max-width: 945px) {
+    .tembox{
+        margin: 60px 0 0 70px;
+    }
+
+}
+
+@media (max-width: 792px) {
+    .tembox{
+        margin: 60px 0 0 40px;
+    }
+}
+
+@media (max-width: 700px) {
+    .tembox{
+        margin: 60px 0 0 20px;
+    }
+}
+
+@media (max-width: 660px) {
+    .tembox{
+        margin: 60px 0 0 20px;
+    }
+
+    .template{
+        width: 60px;
+        height: 25px;
+        margin: 15px;
+        padding: 40px;
+        font-size: 0.7em;
+    }
+}
+
+@media (max-width: 548px) {
+    .tembox{
+        margin: 60px 0 0 30px;
+    }
+
+    .template{
+        width: 50px;
+        height: 20px;
+        margin: 10px;
+        padding: 30px;
+        font-size: 0.6em;
+    }
+}
+
+@media (max-width: 464px) {
+    .tembox{
+        margin: 30px 0 0 20px;
+    }
+
+    .template{
+        width: 50px;
+        height: 20px;
+        margin: 5px;
+        padding: 30px;
+        font-size: 0.6em;
+        font-weight: 100;
+    }
+}
+
+@media (max-width: 420px) {
+    .tembox{
+        margin: 20px 0 0 5px;
+    }
+
+    .template{
+        width: 40px;
+        height: 15px;
+        margin: 5px;
+        padding: 30px;
+        font-size: 0.5em;
+    }
+}
+
+@media (max-width: 345px) {
+    .tembox{
+        margin: 20px 0 0 45px;
+    }
+}
+
+@media (min-width: 1464px) {
+    .projects{
+        margin: 55px 0 0 70px;
+    }
+
+    .probox img{
+        margin: 20px;
+        width: 230px;
+        height: 130px;
+    }
+}
+
+@media (max-width: 1363px) {
+    .projects{
+        margin: 75px 0 0 80px;
+    }
+
+    .probox img{
+        margin: 30px;
+        width: 200px;
+        height: 110px;
+    }
+}
+
+@media (max-width: 1270px) {
+    .projects{
+        margin: 105px 0 0 50px;
+    }
+
+    .probox img{
+        margin: 20px;
+        width: 200px;
+        height: 110px;
+    }
+}
+
+@media (max-width: 1158px) {
+    .projects{
+        margin: 55px 0 0 50px;
+    }
+
+    .probox img{
+        margin: 20px;
+        width: 180px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 1063px) {
+    .projects{
+        margin: 55px 0 0 100px;
+    }
+
+    .probox img{
+        margin: 20px;
+        width: 180px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 929px) {
+    .projects{
+        margin: 55px 0 0 70px;
+    }
+
+    .probox img{
+        margin: 20px;
+        width: 180px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 837px) {
+    .projects{
+        margin: 65px 0 0 40px;
+    }
+
+    .probox img{
+        margin: 10px;
+        width: 180px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 724px) {
+    .projects{
+        margin: 35px 0 0 40px;
+    }
+
+    .probox img{
+        margin: 10px;
+        width: 160px;
+        height: 90px;
+    }
+}
+
+@media (max-width: 639px) {
+    .projects{
+        margin: 20px 0 0 20px;
+    }
+
+    .probox img{
+        margin: 10px;
+        width: 160px;
+        height: 90px;
+    }
+}
+
+@media (max-width: 594px) {
+    .projects{
+        margin: 20px 0 0 46px;
+    }
+
+    .probox img{
+        margin: 5px;
+        width: 120px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 510px) {
+    .projects{
+        margin: 20px 0 0 26px;
+    }
+
+    .probox img{
+        margin: 5px;
+        width: 120px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 464px) {
+    .projects{
+        margin: 20px 0 0 17px;
+    }
+
+    .probox img{
+        margin: 5px;
+        width: 120px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 441px) {
+    .projects{
+        margin: 20px 0 0 67px;
+    }
+
+    .probox img{
+        margin: 5px;
+        width: 140px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 388px) {
+    .projects{
+        margin: 20px 0 0 47px;
+    }
+
+    .probox img{
+        margin: 5px;
+        width: 140px;
+        height: 70px;
+    }
+}
+@media (max-width: 333px) {
+    .projects{
+        margin: 20px 0 0 27px;
+    }
+
+    .probox img{
+        margin: 5px;
+        width: 140px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 1312px) {
+    .con2{
+        width: 300px;
+    }
+
+    p{
+        margin: 10px 25px 5px 0;
+    }
+}
+
+@media (max-width: 1122px) {
+    .img1{
+        width: 14px;
+        height: 14px;
+    }
+
+    .con1 p{
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 1054px) {
+    .coninfo{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    hr{
+        margin: 5px;
+    }
+
+    .conme{
+        margin: 5px;
+    }
+
+    form input{
+        margin: 7px 0 7px 0;
+        padding: 10px;
+    }
+
+    form textarea{
+        margin: 7px 0 7px 0;
+        padding: 10px;
+    }
+
+    .con2{
+        width: 500px;
+    }
+}
+
+@media (max-width: 793px) {
+    .con2{
+        width: 400px;
+    }
+}
+
+@media (max-width: 630px) {
+    .conme{
+        font-size: 1.6em;
+    }
+
+    h2{
+        font-size: 1.1em;
+    }
+
+    .con1 p{
+        font-size: 0.7em;
+    }
+
+    .con2{
+        width: 300px;
+    }
+
+    ::placeholder{
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 473px) {
+    .con2{
+        width: 250px;
+    }
+}
+
+@media (max-width: 392px) {
+    form input{
+        margin: 5px 0 5px 0;
+        padding: 8px;
+    }
+
+    form textarea{
+        margin: 5px 0 5px 0;
+        padding: 8px;
+    }
+
+    .con2{
+        width: 230px;
+    }
+}
+
+@media (max-width: 473px) {
+    .me{
+        font-size: 0.7em;
+    }
+
+    .me li{
+        margin: 10px 10px 10px 0;
+    }
+}
